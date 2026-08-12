@@ -17,7 +17,6 @@ A tool to automatically (or manually) add notes for your Steam games to your Obs
 ## Example
 By simply running this service and playing games, your Obsidian vault will automatically update with notes like this:
 ![](example.png)
-![](example.png)
 
 ## Requirements
 - [Obsidian Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api) to connect to your vault and access/create notes
