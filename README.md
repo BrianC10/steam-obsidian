@@ -124,3 +124,16 @@ Here is a list of command line arguments you can use:
 | `-d`, `--dir`            | Directory in your Obsidian vault to create notes in. Default is the root directory                  |
 | `-e`, `--exclude`        | A comma-separated list of games to exclude from the scan. Format example: `['RetroArch', 'Proton']` |
 | `-g`, `--game`           | The Steam ID of a single game you'd like to scan instead of letting the program decide              |
+
+## Optional Obsidian Configuration
+If you at all like the look of the example note above, there are some additional steps you can take to make your Obsidian look similar:
+
+### Plugins
+- The [Simple Banner](https://community.obsidian.md/plugins/simple-banner) plugin will allow banner art on notes as defined by frontmatter.
+
+### Screenshots
+- If you want to add screenshots to your notes as I have you can check out my [Steamscreen](https://github.com/BrianC10/SteamScreen) program, and point the smaller webp files to a folder in your obsidian vault.
+- Once your screenshots are in your vault. Create a base note with the following filter:
+`file.path.startsWith("path/to/your/screenshots" + this.gallery + "/")`
+- Then add an embed of that base note in your note template:
+`![[path/to/your/Games.base]]`
