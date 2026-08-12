@@ -14,11 +14,11 @@ parser = argparse.ArgumentParser(prog='Steam-Obsidian-Auto-Note', description='A
 
 parser.add_argument('-s', '--service', action='store_true', help='Run the program as a continuously running service')
 parser.add_argument('-in', '--interval', help='The frequency in minutes the program will run in service mode', type=int)
-parser.add_argument('-i', '--icon', action='store_true', help='Enable retreiving icon art from SteamGridDb.')
-parser.add_argument('-b', '--banner', action='store_true', help='Enable retreiving banner art from SteamGridDb.')
-parser.add_argument('-c', '--cover', action='store_true', help='Enable retreiving cover art from SteamGridDb.')
+parser.add_argument('-i', '--icon', action='store_true', help='Enable retrieving icon art from SteamGridDb.')
+parser.add_argument('-b', '--banner', action='store_true', help='Enable retrieving banner art from SteamGridDb.')
+parser.add_argument('-c', '--cover', action='store_true', help='Enable retrieving cover art from SteamGridDb.')
 parser.add_argument('-r', '--release', action='store_true', help='Get release date from SteamGridDb')
-parser.add_argument('-f', '--full', action='store_true', help='Perform full scan of all games currently on system. I\'m not fulle sure how Steam stores data  \
+parser.add_argument('-f', '--full', action='store_true', help='Perform full scan of all games currently on system. I\'m not fully sure how Steam stores data  \
                     in localconfig.vdf, but this will likely only pull games that you have played on the system you\'re running the program on. \
                         EXTREMELY RECOMMENDED to do a test-run with \'--test\' before using this')
 parser.add_argument('-t', '--test', action='store_true', help='Get a list of the games that will be added without actually adding them.')
