@@ -1,0 +1,8 @@
+[Unit]
+Description=Automatically create/update obsidian notes for your Steam games as you play
+
+[Service]
+ExecStart=%h/.config/steam-obsidian/.venv/bin/python3 %h/.config/steam-obsidian/steam-obsidian.py -s
+
+[Install]
+WantedBy=default.target

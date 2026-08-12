@@ -1,0 +1,16 @@
+---
+name: {title}
+release date: {release_date}
+finished:
+cover: {cover}
+gallery: {title}
+banner: {banner}
+icon: {icon}
+playing: true
+stopped: false
+steamId: {id}
+playtime: {playtime}
+rating: 
+---
+###### Gallery
+![[z_/z_bases/Games.base|Games]]
