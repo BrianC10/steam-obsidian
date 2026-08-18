@@ -1,2 +1,3 @@
 vdf
 python-steamgriddb
+requests
